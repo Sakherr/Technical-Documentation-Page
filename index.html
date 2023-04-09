@@ -12,12 +12,19 @@
     <title >Technical Documentation </title>
 	<style>
 		/* Style for navbar */
-		#navbar {
+		body {
+
+      background: linear-gradient(to bottom, #123342,#104b26, #0a460f);
+    }
+
+    
+    #navbar {
 			position: fixed;
 			left: 0;
 			top: 0;
 			height: 100%;
-			background-color: #f0f0f0;
+      
+      background: linear-gradient(to bottom, #656e6e,#9ba09d, #070707);
 			padding: 20px;
 			overflow-y: auto;
 		}
@@ -31,7 +38,7 @@
 			margin-bottom: 10px;
 			font-size: 18px;
 			text-decoration: none;
-			color: #333;
+			color: #a03434;
 		}
 		.nav-link:hover {
 			color: #555;
@@ -45,19 +52,17 @@
 			margin-bottom: 40px;
 			border-bottom: 1px solid #ccc;
 		}
-		.main-section h2 {
+		.main-section header {
 			margin-top: 0;
 			font-size: 28px;
 			font-weight: bold;
 		}
 		.main-section p {
-			font-size: 18px;
+			font-size: 22px;
 			line-height: 1.5;
-			margin-bottom: 10px;
 		}
 		.main-section code {
 			font-family: "Courier New", Courier, monospace;
-			font-size: 18px;
 			background-color: #f0f0f0;
 			padding: 2px 5px;
 			border-radius: 3px;
@@ -93,30 +98,42 @@
         .no-underline {
   text-decoration: none;
 }
+.no-underline{
 
+color: black;
+font-size: 20px;
+font-weight: bold;
+
+}
 	</style>
 </head>
 <body>
 	<nav id="navbar">
-        <h2><a href="#top" class="no-underline">Technical Documentation</a></h2>
-        <a class="nav-link" href="#Introduction">Introduction</a>
-		<a class="nav-link" href="#HTML">HTML</a>
-		<a class="nav-link" href="#CSS">CSS</a>
-		<a class="nav-link" href="#JavaScript">JavaScript</a>
-		<a class="nav-link" href="#APIs">APIs</a>
-	</nav>
+     <header><a href="#top" class="no-underline">Technical Documentation</a></header>
+    <br>
+     <a class="nav-link" href="#Introduction"><strong>Introduction</strong></a>
+		<a class="nav-link" href="#HTML"><strong>HTML</strong></a>
+		<a class="nav-link" href="#CSS"><strong>CSS</strong></a>
+		<a class="nav-link" href="#JavaScript"><strong>JavaScript</strong></a>
+		<a class="nav-link" href="#APIs"><strong>APIs</strong></a>
+    <a class="nav-link" href="#Data_structures"><strong>Data_structures</strong></a>
+
+  </nav>
 
 
     <main id="main-doc">
 		<section class="main-section" id="Introduction">
-			<h2>Introduction</h2>
+			
+      <header>Introduction</header>
 			<p>Welcome to the technical documentation page! Here you will find information about HTML, CSS, JavaScript, and APIs.</p>
-			<p>Technical documentation is a set of documents that describes the structure, functionality, and design of a software or
-             hardware product. It helps users and developers understand how to use and interact with the product.</p>
-
+			<p>Technical documentation comprises a collection of documents that explain the architecture, functionality, and design of a software or hardware product</p>
+      <p>his technical documentation page serves as a guide for both users and developers, providing insights into how to use and interact with the product effectively.</p>
+      <p>Effective technical documentation is important for ensuring that users and developers can fully understand how to use and interact with a product. It can also help to reduce support costs by providing clear and comprehensive instructions, troubleshooting guides, and FAQs.</p>       
             </section>
+            <p></p>
+            <p></p>
             <section class="main-section" id="HTML">
-            <h2>HTML</h2>
+            <header>HTML</header>
             <p>HTML stands for HyperText Markup Language. It is used to create the structure and content of web pages. HTML consists of a series of tags, which define the structure and content of elements on a web page.</p>
             <p>Here are some of the most commonly used HTML tags:</p>
             <ul>
@@ -133,9 +150,12 @@
                     <li>&lt;li&gt; - Defines a list item</li>
             </ul>
             <p>HTML can also be used to create forms, tables, and other interactive elements on a web page.</p>
+           
+
+            
             </section>
             <section class="main-section" id="CSS">
-            <h2>CSS</h2>
+            <header>CSS</header>
             <p>CSS stands for Cascading Style Sheets. It is used to define the visual style of a web page, including the layout, fonts, colors, and other design elements. CSS works by targeting HTML elements and applying rules to them.</p>
             <p>Here are some examples of CSS selectors:</p>
             <ul>
@@ -155,9 +175,13 @@
             <li>border - Defines the border of an element</li>
             </ul>
             <p>CSS can also be used to create animations, transitions, and other dynamic effects on a web page.</p>
+            
+
+         
+
             </section>
             <section class="main-section" id="JavaScript">
-            <h2>JavaScript</h2>
+            <header>JavaScript</header>
             <p>JavaScript is a programming language that is used to create interactive and dynamic web pages. It can be used to create animations, validate form data, and manipulate HTML and CSS.</p>
             <p>Here are some examples of JavaScript features:</p>
             <ul>
@@ -167,9 +191,14 @@
 <li>Creating animations and visual effects</li>
 </ul>
 <p>JavaScript can be embedded directly into an HTML document using the <code>&lt;script&gt;</code> tag, or it can be included in a separate JavaScript file and linked to the HTML document using the <code>&lt;script src="filename.js"&gt;</code> tag.</p>
+
+
+
+
 </section>
+
 <section class="main-section" id="APIs">
-<h2>APIs</h2>
+<header>APIs</header>
 <p>An API (Application Programming Interface) is a set of protocols, routines, and tools for building software applications. In web development, APIs are often used to retrieve data from a remote server, such as a database or web service, and display that data on a web page.</p>
 <p>APIs are usually accessed using HTTP requests, and the data is returned in a format such as JSON or XML.</p>
 <p>Here are some examples of APIs:</p>
@@ -178,6 +207,29 @@
 <li>The Google Maps API, which allows developers to add interactive maps to their web pages</li>
 <li>The OpenWeatherMap API, which allows developers to retrieve weather data for a specific location</li>
 </ul>
+
+
+
+
+</section>
+
+<section class="main-section" id="Data_structures">
+  <header>Data_Structures</header>
+  <p>In computer science, a data structure is a way of organizing and storing data in a computer so that it can be accessed and used efficiently. Different types of data structures are suited to different kinds of applications, and some are highly specialized to specific tasks.</p>
+  <p>Here are some examples of data structures:</p>
+  <ul>
+    <li>Arrays, which are collections of elements of the same type that are stored in contiguous memory locations</li>
+    <li>Linked lists, which are collections of elements that are linked together by pointers</li>
+    <li>Trees, which are hierarchical structures that consist of nodes connected by edges</li>
+    <li>Graphs, which are collections of nodes and edges that can be used to represent complex relationships between data</li>
+  </ul>
+
+ 
+</section>
+
+
+
+
 </section>
 </main>
 </body>
