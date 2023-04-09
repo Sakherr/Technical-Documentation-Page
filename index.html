@@ -1,0 +1,184 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+    <link rel="stylesheet" href="style.css">
+
+    
+    <title >Technical Documentation </title>
+	<style>
+		/* Style for navbar */
+		#navbar {
+			position: fixed;
+			left: 0;
+			top: 0;
+			height: 100%;
+			background-color: #f0f0f0;
+			padding: 20px;
+			overflow-y: auto;
+		}
+		#navbar h1 {
+			margin-bottom: 20px;
+			font-size: 24px;
+			font-weight: bold;
+		}
+		.nav-link {
+			display: block;
+			margin-bottom: 10px;
+			font-size: 18px;
+			text-decoration: none;
+			color: #333;
+		}
+		.nav-link:hover {
+			color: #555;
+		}
+		/* Style for main content */
+		#main-doc {
+			margin-left: 300px;
+			padding: 20px;
+		}
+		.main-section {
+			margin-bottom: 40px;
+			border-bottom: 1px solid #ccc;
+		}
+		.main-section h2 {
+			margin-top: 0;
+			font-size: 28px;
+			font-weight: bold;
+		}
+		.main-section p {
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		.main-section code {
+			font-family: "Courier New", Courier, monospace;
+			font-size: 18px;
+			background-color: #f0f0f0;
+			padding: 2px 5px;
+			border-radius: 3px;
+		}
+		.main-section ul {
+			list-style: disc;
+			margin-left: 20px;
+			font-size: 18px;
+			line-height: 1.5;
+			margin-bottom: 10px;
+		}
+		.main-section li {
+			margin-bottom: 5px;
+		}
+		@media screen and (max-width: 768px) {
+			#navbar {
+				position: static;
+				height: auto;
+				padding: 10px;
+			}
+			#navbar h1 {
+				margin-bottom: 10px;
+				font-size: 20px;
+			}
+			.nav-link {
+				font-size: 16px;
+				margin-bottom: 5px;
+			}
+			#main-doc {
+				margin-left: 0;
+			}
+		}
+        .no-underline {
+  text-decoration: none;
+}
+
+	</style>
+</head>
+<body>
+	<nav id="navbar">
+        <h2><a href="#top" class="no-underline">Technical Documentation</a></h2>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+		<a class="nav-link" href="#HTML">HTML</a>
+		<a class="nav-link" href="#CSS">CSS</a>
+		<a class="nav-link" href="#JavaScript">JavaScript</a>
+		<a class="nav-link" href="#APIs">APIs</a>
+	</nav>
+
+
+    <main id="main-doc">
+		<section class="main-section" id="Introduction">
+			<h2>Introduction</h2>
+			<p>Welcome to the technical documentation page! Here you will find information about HTML, CSS, JavaScript, and APIs.</p>
+			<p>Technical documentation is a set of documents that describes the structure, functionality, and design of a software or
+             hardware product. It helps users and developers understand how to use and interact with the product.</p>
+
+            </section>
+            <section class="main-section" id="HTML">
+            <h2>HTML</h2>
+            <p>HTML stands for HyperText Markup Language. It is used to create the structure and content of web pages. HTML consists of a series of tags, which define the structure and content of elements on a web page.</p>
+            <p>Here are some of the most commonly used HTML tags:</p>
+            <ul>
+                    <li>&lt;html&gt; - Defines the root of an HTML document</li>
+                     <li><head> - Contains metadata about the document</li>
+                    <li>&lt;title&gt; - Defines the title of the document</li>
+                    <li>&lt;body&gt; - Contains the visible content of the document</li>
+                    <li>&lt;h1&gt; - Defines a heading</li>
+                    <li>&lt;p&gt; - Defines a paragraph</li>
+                    <li>&lt;a&gt; - Defines a hyperlink</li>
+                    <li>&lt;img&gt; - Defines an image</li>
+                    <li>&lt;ul&gt; - Defines an unordered list</li>
+                    <li>&lt;ol&gt; - Defines an ordered list</li>
+                    <li>&lt;li&gt; - Defines a list item</li>
+            </ul>
+            <p>HTML can also be used to create forms, tables, and other interactive elements on a web page.</p>
+            </section>
+            <section class="main-section" id="CSS">
+            <h2>CSS</h2>
+            <p>CSS stands for Cascading Style Sheets. It is used to define the visual style of a web page, including the layout, fonts, colors, and other design elements. CSS works by targeting HTML elements and applying rules to them.</p>
+            <p>Here are some examples of CSS selectors:</p>
+            <ul>
+            <li>element - Targets all instances of an HTML element</li>
+            <li>#id - Targets an element with a specific ID</li>
+            <li>.class - Targets all elements with a specific class</li>
+            <li>element, element - Targets multiple elements</li>
+            <li>element.class - Targets elements with a specific class that are inside a specific element</li>
+            </ul>
+            <p>Here are some examples of CSS properties:</p>
+            <ul>
+            <li>color - Defines the color of text</li>
+            <li>font-family - Defines the font of text</li>
+            <li>background-color - Defines the background color of an element</li>
+            <li>margin - Defines the margin of an element</li>
+            <li>padding - Defines the padding of an element</li>
+            <li>border - Defines the border of an element</li>
+            </ul>
+            <p>CSS can also be used to create animations, transitions, and other dynamic effects on a web page.</p>
+            </section>
+            <section class="main-section" id="JavaScript">
+            <h2>JavaScript</h2>
+            <p>JavaScript is a programming language that is used to create interactive and dynamic web pages. It can be used to create animations, validate form data, and manipulate HTML and CSS.</p>
+            <p>Here are some examples of JavaScript features:</p>
+            <ul>
+                <li>Handling user interactions, such as mouse clicks and keyboard input</li>
+        <li>Manipulating CSS styles</li>
+<li>Working with data, such as retrieving information from a database or API</li>
+<li>Creating animations and visual effects</li>
+</ul>
+<p>JavaScript can be embedded directly into an HTML document using the <code>&lt;script&gt;</code> tag, or it can be included in a separate JavaScript file and linked to the HTML document using the <code>&lt;script src="filename.js"&gt;</code> tag.</p>
+</section>
+<section class="main-section" id="APIs">
+<h2>APIs</h2>
+<p>An API (Application Programming Interface) is a set of protocols, routines, and tools for building software applications. In web development, APIs are often used to retrieve data from a remote server, such as a database or web service, and display that data on a web page.</p>
+<p>APIs are usually accessed using HTTP requests, and the data is returned in a format such as JSON or XML.</p>
+<p>Here are some examples of APIs:</p>
+<ul>
+<li>The Twitter API, which allows developers to access and display Twitter data on their web pages</li>
+<li>The Google Maps API, which allows developers to add interactive maps to their web pages</li>
+<li>The OpenWeatherMap API, which allows developers to retrieve weather data for a specific location</li>
+</ul>
+</section>
+</main>
+</body>
+</html>
